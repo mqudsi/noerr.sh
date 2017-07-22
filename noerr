@@ -1,4 +1,8 @@
 #!/bin/bash
+# noerr script executes commands and ignores the error output
+# noerr is developed by NeoSmart Technologies <https://neosmart.net>
+# and released to the public under the terms of the MIT licenese.
+
 app=$1
 shift
 $app "$@" 2> /dev/null
