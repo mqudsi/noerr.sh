@@ -2,6 +2,7 @@
 # noerr script executes commands and ignores the error output
 # noerr is developed by NeoSmart Technologies <https://neosmart.net>
 # and released to the public under the terms of the MIT licenese.
+# Get updates from <https://github.com/neosmart/noerr.sh>
 
 app=$1
 shift
