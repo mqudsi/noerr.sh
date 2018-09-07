@@ -6,4 +6,4 @@
 
 app=$1
 shift
-$app "$@" 2> /dev/null
+eval $app "$@" 2> /dev/null
